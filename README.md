@@ -86,15 +86,26 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+HAL_Delay(1000);
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+HAL_Delay(1000);
+
+```
 
 
 
 
 
 ## OUTPUT  :
+
+ ![Screenshot 2024-09-02 181852](https://github.com/user-attachments/assets/5c6bd8be-7316-4709-9541-2f32ec76b7c6)
+
  
  
- 
- 
+## Result :
+
+Interfacing a digital output with ARM microcontroller based IOT development is executed and the results are verified.
 ## Result :
 Interfacing a digital output with ARM microcontroller based IOT development is executed and the results are verified.
